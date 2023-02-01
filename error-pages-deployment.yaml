@@ -3,7 +3,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: error-pages
-  namespace: traefik
   labels:
     app: error-pages
 spec:
