@@ -26,7 +26,7 @@ spec:
         imagePullPolicy: IfNotPresent
         env:
         - name: TEMPLATE_NAME
-          value: "orient"
+          value: "ghost"
         - name: SHOW_DETAILS
           value: "true"
         ports:
