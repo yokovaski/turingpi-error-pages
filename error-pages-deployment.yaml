@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: error-pages
-        image: tarampampam/error-pages:2.20.0
+        image: tarampampam/error-pages:2.21.0
         imagePullPolicy: IfNotPresent
         env:
         - name: TEMPLATE_NAME
